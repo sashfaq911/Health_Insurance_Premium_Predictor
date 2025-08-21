@@ -7,19 +7,24 @@ Built with **machine learning models** trained on real-world health insurance da
 
 ---
 
-## 🚀 Features
+## 🚀 Installation  
+### Prerequisites:  
+- Python 3.10+
 
-- 🧑‍⚕️ Predicts **personalized premium costs** in seconds.  
-- 📊 Considers multiple factors:
-  - Age, gender, marital status, number of dependants  
-  - Income level and employment type  
-  - Region of residence  
-  - Genetic risk, BMI category, smoking status  
-  - Medical history (diabetes, hypertension, thyroid, heart disease, etc.)  
-  - Insurance plan type (Bronze, Silver, Gold)  
-- ⚡ Switch between different scenarios instantly to compare outcomes.  
-- 🎉 Fun and user-friendly interface powered by **Streamlit**.
-
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/sashfaq911/health-insurance-premium-predictor.git
+   cd health-insurance-premium-predictor
+   ```
+2. **Install dependencies**:   
+   ```commandline
+    pip install -r requirements.txt
+   ```
+5. **Run the Streamlit app**:   
+   ```commandline
+    streamlit run main.py
+   ```
+   
 ---
 
 ## 🛠️ Tech Stack
@@ -51,24 +56,25 @@ health-insurance-premium-predictor/
 
 ---
 
-## 🚀 Installation  
-### Prerequisites:  
-- Python 3.10+
+## 🚀 Features
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/sashfaq911/health-insurance-premium-predictor.git
-   cd health-insurance-premium-predictor
-   ```
-2. **Install dependencies**:   
-   ```commandline
-    pip install -r requirements.txt
-   ```
-5. **Run the Streamlit app**:   
-   ```commandline
-    streamlit run main.py
-   ```
+- 🧑‍⚕️ Predicts **personalized premium costs** in seconds.  
+- 📊 Considers multiple factors:
+  - Age, gender, marital status, number of dependants  
+  - Income level and employment type  
+  - Region of residence  
+  - Genetic risk, BMI category, smoking status  
+  - Medical history (diabetes, hypertension, thyroid, heart disease, etc.)  
+  - Insurance plan type (Bronze, Silver, Gold)  
+- ⚡ Switch between different scenarios instantly to compare outcomes.  
+- 🎉 Fun and user-friendly interface powered by **Streamlit**.
+
+---
+
 ## App Overview
+
+---
+
 ## 📖 Usage
 
 The app is divided into **4 expandable sections** for user inputs:
@@ -123,21 +129,25 @@ This segmentation ensures that younger applicants and older applicants are model
 
 > 💡 Notice how risk factors (smoking + medical history + Gold plan) significantly increase the premium compared to a baseline healthy profile.
 
-
+---
 
 ## Live Demo 🌐
 
-👉 Try the app here: premium-predictor-app.streamlit.app
+👉 Try the app here: **[Health Insurance Premium Predictor](https://premium-predictor-app.streamlit.app/)**
 
+---
 
+## Acknowledgements 🙏 <a name="acknowledgements"></a>
+
+A special thanks to [Dhaval Patel](https://www.linkedin.com/in/dhavalsays/) and [Hemanand Vadivel](https://www.linkedin.com/in/hemvad/) for their guidance through the [CodeBasics Data Analysis BootCamp 3.0](https://codebasics.io/bootcamps/data-analytics-bootcamp-with-practical-job-assistance). This project has been an invaluable learning experience and a key milestone in my data science journey!
+
+---
 
 ## License 📄
 
 This project is licensed under the **Apache License 2.0**. See the [LICENSE](./LICENSE) file for details.
 
-## Acknowledgements 🙏 <a name="acknowledgements"></a>
-
-A special thanks to [Dhaval Patel](https://www.linkedin.com/in/dhavalsays/) and [Hemanand Vadivel](https://www.linkedin.com/in/hemvad/) for their guidance through the [CodeBasics Data Analysis BootCamp 3.0](https://codebasics.io/bootcamps/data-analytics-bootcamp-with-practical-job-assistance). This project has been an invaluable learning experience and a key milestone in my data science journey!
+---
 
 ## Support ❤️ <a name="support"></a>
 
