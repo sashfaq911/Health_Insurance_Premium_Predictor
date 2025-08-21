@@ -2,9 +2,9 @@
 
 <div align="center">
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://premium-predictor-app.streamlit.app/)
+<img src="premium_prediction_app_screenshot.png" alt="App Preview" width="800"/>
 
-<img src="premium_prediction_app_screenshot.png" alt="App Preview" width="600"/>
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://premium-predictor-app.streamlit.app/)
 
 </div>
 
