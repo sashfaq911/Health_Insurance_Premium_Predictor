@@ -138,7 +138,7 @@ This segmentation ensures that younger applicants and older applicants are model
 
 > 💡 With no medical risks, no smoking habit, and a Bronze plan, the premium is at the lower end.
 
-
+---
 
 #### 🔥 Example 2: High-Risk Profile
 **Inputs:**
@@ -160,7 +160,6 @@ This segmentation ensures that younger applicants and older applicants are model
 
 > 💡 Notice how risk factors (smoking + medical history + Gold plan) significantly increase the premium compared to the baseline healthy profile.
 
----
 
 
 ## 🌐 Live Demo
