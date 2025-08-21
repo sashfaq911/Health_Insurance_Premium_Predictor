@@ -34,15 +34,19 @@ Built with **machine learning models** trained on real-world health insurance da
 ## 📦 Project Structure
 
 ```bash
-.
+health-insurance-premium-predictor/
+|
 ├── main.py                 # Streamlit app entry point
 ├── prediction_helper.py    # Preprocessing & prediction logic
 ├── artifacts/
-│   ├── model_young.joblib  # Model for users <= 25 years
-│   ├── model_rest.joblib   # Model for users > 25 years
-│   ├── scaler_young.joblib # Scaler for younger group
-│   └── scaler_rest.joblib  # Scaler for older group
-└── README.md               # Project documentation
+│   ├── model_young.joblib  # Linear Regression Model for users <= 25 years
+│   ├── model_rest.joblib   # XGBoost Model for users > 25 years
+│   ├── scaler_young.joblib # StandardScaler for younger group
+│   └── scaler_rest.joblib  # StandardScaler for older group
+|
+├── README.md               # Project documentation
+├── LICENSE                 # Apache License File
+└──requirements.txt         # Python dependencies
 ```
 
 ---
