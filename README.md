@@ -1,8 +1,11 @@
-<h1 align="center"> Health Insurance Premium Predictor 💸 </h1>
-
 <div align="center">
+  
+<img src="assets/demo.gif" alt="Demo" width="1280"/>
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://premium-predictor-app.streamlit.app/)
+
+<h1 align="center"> Health Insurance Premium Predictor 💸 </h1>
+
 
 </div>
 
@@ -142,6 +145,7 @@ This segmentation ensures that younger applicants and older applicants are model
 🎉 Estimated Health Insurance Premium: **₹ 5,989** (example)  
 
 > 💡 With no medical risks, no smoking habit, and a Bronze plan, the premium is at the lower end.
+
 
 
 #### 🔥 Example 2: High-Risk Profile
