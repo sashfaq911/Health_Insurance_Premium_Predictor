@@ -1,8 +1,51 @@
-# Health Insurance Premium Predictor App
-This app predicts health insurance premiums based on your lifestyle and medical history.
+# 💸 Health Insurance Premium Predictor
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://premium-predictor-app.streamlit.app/)
 
+An interactive **Streamlit web app** that predicts health insurance premiums based on your age, lifestyle, medical history, and coverage plan.  
+Built with **machine learning models** trained on real-world health insurance data.
 
+---
+
+## 🚀 Features
+
+- 🧑‍⚕️ Predicts **personalized premium costs** in seconds.  
+- 📊 Considers multiple factors:
+  - Age, gender, marital status, number of dependants  
+  - Income level and employment type  
+  - Region of residence  
+  - Genetic risk, BMI category, smoking status  
+  - Medical history (diabetes, hypertension, thyroid, heart disease, etc.)  
+  - Insurance plan type (Bronze, Silver, Gold)  
+- ⚡ Switch between different scenarios instantly to compare outcomes.  
+- 🎉 Fun and user-friendly interface powered by **Streamlit**.
+
+---
+
+## 🛠️ Tech Stack
+
+- [Streamlit](https://streamlit.io/) for the web app UI  
+- [scikit-learn](https://scikit-learn.org/) for ML modeling  
+- [Pandas](https://pandas.pydata.org/) for data preprocessing  
+- [Joblib](https://joblib.readthedocs.io/) for model serialization  
+
+---
+
+## 📦 Project Structure
+
+```bash
+.
+├── main.py                 # Streamlit app entry point
+├── prediction_helper.py    # Preprocessing & prediction logic
+├── artifacts/
+│   ├── model_young.joblib  # Model for users <= 25 years
+│   ├── model_rest.joblib   # Model for users > 25 years
+│   ├── scaler_young.joblib # Scaler for younger group
+│   └── scaler_rest.joblib  # Scaler for older group
+└── README.md               # Project documentation
+```
+
+---
 
 ## 🚀 Installation  
 ### Prerequisites:  
@@ -22,17 +65,69 @@ This app predicts health insurance premiums based on your lifestyle and medical 
     streamlit run main.py
    ```
 ## App Overview
+## 📖 Usage
+
+The app is divided into **4 expandable sections** for user inputs:
+
+1. **👤 Basic Information**  
+   - Age  
+   - Gender  
+   - Marital Status  
+   - Number of Dependants  
+
+2. **📍 Region & Work**  
+   - Region  
+   - Employment Status  
+   - Income (in Lakhs)  
+
+3. **💪 Health & Habits**  
+   - Genetic Risk (0–5 scale)  
+   - BMI Category  
+   - Smoking Status  
+   - Medical History  
+
+4. **🧬 Premium Category**  
+   - Insurance Plan (Bronze, Silver, Gold)  
+
+Once inputs are provided, the app processes them and selects the correct **model + scaler** based on your age:  
+
+- **Age ≤ 25** → Uses `scaler_young.joblib` and `model_young.joblib` (**Linear Regression**)  
+- **Age > 25** → Uses `scaler_rest.joblib` and `model_rest.joblib` (**XGBoost Regressor**)  
+
+This segmentation ensures that younger applicants and older applicants are modeled differently, improving prediction accuracy.
+
+---
+
+## 📊 Example Prediction
+
+**Inputs:**
+- Age: 35  
+- Gender: Male  
+- Marital Status: Married  
+- Dependants: 2  
+- Region: Southeast  
+- Employment: Salaried  
+- Income: ₹ 12 Lakhs  
+- Genetic Risk: 2  
+- BMI: Overweight  
+- Smoking: Regular  
+- Medical History: Diabetes & High Blood Pressure  
+- Insurance Plan: Gold  
+
+**Result:**  
+🎉 Estimated Health Insurance Premium: **₹ 18,450** (example)  
+
+> 💡 Notice how risk factors (smoking + medical history + Gold plan) significantly increase the premium compared to a baseline healthy profile.
 
 
-### Features
+
+## Live Demo 🌐
+
+👉 Try the app here: premium-predictor-app.streamlit.app
 
 
-## Project Structure
 
-
-
-
-## License
+## License 📄
 
 This project is licensed under the **Apache License 2.0**. See the [LICENSE](./LICENSE) file for details.
 
