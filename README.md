@@ -1,13 +1,14 @@
-# 💸 Health Insurance Premium Predictor
+# Health Insurance Premium Predictor 💸
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://premium-predictor-app.streamlit.app/)
 
 An interactive **Streamlit web app** that predicts health insurance premiums based on your age, lifestyle, medical history, and coverage plan.  
-Built with **machine learning models** trained on real-world health insurance data.
+Built with **machine learning models** trained on synthetic insurance data.
 
 ---
 
-## 🚀 Installation  
+## 🚀 Installation
+
 ### Prerequisites:  
 - Python 3.10+
 
@@ -24,8 +25,6 @@ Built with **machine learning models** trained on real-world health insurance da
    ```commandline
     streamlit run main.py
    ```
-   
----
 
 ## 🛠️ Tech Stack
 
@@ -34,7 +33,6 @@ Built with **machine learning models** trained on real-world health insurance da
 - [Pandas](https://pandas.pydata.org/) for data preprocessing  
 - [Joblib](https://joblib.readthedocs.io/) for model serialization  
 
----
 
 ## 📦 Project Structure
 
@@ -54,8 +52,6 @@ health-insurance-premium-predictor/
 └── requirements.txt                # Python dependencies
 ```
 
----
-
 ## 🚀 Features
 
 - 🧑‍⚕️ Predicts **personalized premium costs** in seconds.  
@@ -69,13 +65,10 @@ health-insurance-premium-predictor/
 - ⚡ Switch between different scenarios instantly to compare outcomes.  
 - 🎉 Fun and user-friendly interface powered by **Streamlit**.
 
----
-
 ## App Overview
 
----
 
-## 📖 Usage
+### 📖 Usage
 
 The app is divided into **4 expandable sections** for user inputs:
 
@@ -108,8 +101,29 @@ This segmentation ensures that younger applicants and older applicants are model
 
 ---
 
-## 📊 Example Prediction
+### 📊 Example Prediction
 
+#### ✅ Example 1: Healthy Baseline Profile
+**Inputs:**
+- Age: 24  
+- Gender: Female  
+- Marital Status: Unmarried  
+- Dependants: 0  
+- Region: Northwest  
+- Employment: Freelancer  
+- Income: ₹ 6 Lakhs  
+- Genetic Risk: 0  
+- BMI: Normal  
+- Smoking: Non-Smoker  
+- Medical History: No Disease  
+- Insurance Plan: Bronze  
+
+**Result:**  
+🎉 Estimated Health Insurance Premium: **₹ 7,620** (example)  
+
+> 💡 With no medical risks, no smoking habit, and a Bronze plan, the premium is at the lower end.
+
+#### 🔥 Example 2: High-Risk Profile
 **Inputs:**
 - Age: 35  
 - Gender: Male  
@@ -127,29 +141,26 @@ This segmentation ensures that younger applicants and older applicants are model
 **Result:**  
 🎉 Estimated Health Insurance Premium: **₹ 18,450** (example)  
 
-> 💡 Notice how risk factors (smoking + medical history + Gold plan) significantly increase the premium compared to a baseline healthy profile.
+> 💡 Notice how risk factors (smoking + medical history + Gold plan) significantly increase the premium compared to the baseline healthy profile.
 
 ---
 
-## Live Demo 🌐
+## 🌐 Live Demo
 
 👉 Try the app here: **[Health Insurance Premium Predictor](https://premium-predictor-app.streamlit.app/)**
 
----
 
 ## Acknowledgements 🙏 <a name="acknowledgements"></a>
 
 A special thanks to [Dhaval Patel](https://www.linkedin.com/in/dhavalsays/) and [Hemanand Vadivel](https://www.linkedin.com/in/hemvad/) for their guidance through the [CodeBasics Data Analysis BootCamp 3.0](https://codebasics.io/bootcamps/data-analytics-bootcamp-with-practical-job-assistance). This project has been an invaluable learning experience and a key milestone in my data science journey!
 
----
 
-## License 📄
+## 📄 License
 
 This project is licensed under the **Apache License 2.0**. See the [LICENSE](./LICENSE) file for details.
 
----
 
-## Support ❤️ <a name="support"></a>
+## ❤️  Support  <a name="support"></a>
 
 Contributions, issues, and suggestions are welcome!
 
