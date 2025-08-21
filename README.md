@@ -110,6 +110,11 @@ This segmentation ensures that younger applicants and older applicants are model
 ---
 
 ### 📊 Example Prediction
+<div align="center">
+   
+<img src="screenshot.png" alt="App Preview" width="1185"/>
+
+</div>
 
 #### ✅ Example 1: Healthy Baseline Profile
 **Inputs:**
@@ -127,7 +132,7 @@ This segmentation ensures that younger applicants and older applicants are model
 - Insurance Plan: Bronze  
 
 **Result:**  
-🎉 Estimated Health Insurance Premium: **₹ 7,620** (example)  
+🎉 Estimated Health Insurance Premium: **₹ 5,989** (example)  
 
 > 💡 With no medical risks, no smoking habit, and a Bronze plan, the premium is at the lower end.
 
@@ -147,7 +152,7 @@ This segmentation ensures that younger applicants and older applicants are model
 - Insurance Plan: Gold  
 
 **Result:**  
-🎉 Estimated Health Insurance Premium: **₹ 18,450** (example)  
+🎉 Estimated Health Insurance Premium: **₹ 28,870** (example)  
 
 > 💡 Notice how risk factors (smoking + medical history + Gold plan) significantly increase the premium compared to the baseline healthy profile.
 
