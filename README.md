@@ -4,12 +4,14 @@
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://premium-predictor-app.streamlit.app/)
 
-</div>
+<img src="premium_prediction_app_screenshot.png" alt="App Preview" width="600"/>
 
----
+</div>
 
 An interactive **Streamlit web app** that predicts health insurance premiums based on your age, lifestyle, medical history, and coverage plan.  
 Built with **machine learning models** trained on synthetic insurance data.
+
+---
 
 ## 🚀 Installation
 
