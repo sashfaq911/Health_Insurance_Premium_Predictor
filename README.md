@@ -30,12 +30,14 @@ Built with **machine learning models** trained on synthetic insurance data.
     streamlit run main.py
    ```
 
+
 ## 🛠️ Tech Stack
 
 - [Streamlit](https://streamlit.io/) for the web app UI  
 - [scikit-learn](https://scikit-learn.org/) for ML modeling  
 - [Pandas](https://pandas.pydata.org/) for data preprocessing  
 - [Joblib](https://joblib.readthedocs.io/) for model serialization  
+
 
 
 ## 📦 Project Structure
@@ -56,6 +58,7 @@ health-insurance-premium-predictor/
 └── requirements.txt                # Python dependencies
 ```
 
+
 ## 🚀 Features
 
 - 🧑‍⚕️ Predicts **personalized premium costs** in seconds.  
@@ -69,12 +72,14 @@ health-insurance-premium-predictor/
 - ⚡ Switch between different scenarios instantly to compare outcomes.  
 - 🎉 Fun and user-friendly interface powered by **Streamlit**.
 
+
 ## App Overview
 Here’s a quick demo of the Health Insurance Premium Predictor in action:
 
 <p align="center">
-  <img src="assets/demo.gif" alt="App Demo" width="1280"/>
+  <img src="assets/demo.gif" alt="Demo" width="1280"/>
 </p>
+
 
 ### 📖 Usage
 
@@ -109,12 +114,14 @@ This segmentation ensures that younger applicants and older applicants are model
 
 ---
 
+
 ### 📊 Example Prediction
 <div align="center">
    
 <img src="screenshot.png" alt="App Preview" width="1185"/>
 
 </div>
+
 
 #### ✅ Example 1: Healthy Baseline Profile
 **Inputs:**
@@ -135,6 +142,7 @@ This segmentation ensures that younger applicants and older applicants are model
 🎉 Estimated Health Insurance Premium: **₹ 5,989** (example)  
 
 > 💡 With no medical risks, no smoking habit, and a Bronze plan, the premium is at the lower end.
+
 
 #### 🔥 Example 2: High-Risk Profile
 **Inputs:**
@@ -158,9 +166,11 @@ This segmentation ensures that younger applicants and older applicants are model
 
 ---
 
+
 ## 🌐 Live Demo
 
 👉 Try the app here: **[Health Insurance Premium Predictor](https://premium-predictor-app.streamlit.app/)**
+
 
 
 ## Acknowledgements 🙏 <a name="acknowledgements"></a>
@@ -168,9 +178,11 @@ This segmentation ensures that younger applicants and older applicants are model
 A special thanks to [Dhaval Patel](https://www.linkedin.com/in/dhavalsays/) and [Hemanand Vadivel](https://www.linkedin.com/in/hemvad/) for their guidance through the [CodeBasics Data Analysis BootCamp 3.0](https://codebasics.io/bootcamps/data-analytics-bootcamp-with-practical-job-assistance). This project has been an invaluable learning experience and a key milestone in my data science journey!
 
 
+
 ## 📄 License
 
 This project is licensed under the **Apache License 2.0**. See the [LICENSE](./LICENSE) file for details.
+
 
 
 ## ❤️  Support  <a name="support"></a>
