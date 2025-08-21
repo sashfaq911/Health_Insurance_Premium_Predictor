@@ -40,18 +40,18 @@ Built with **machine learning models** trained on real-world health insurance da
 
 ```bash
 health-insurance-premium-predictor/
-|
-├── main.py                 # Streamlit app entry point
-├── prediction_helper.py    # Preprocessing & prediction logic
-├── artifacts/
-│   ├── model_young.joblib  # Linear Regression Model for users <= 25 years
-│   ├── model_rest.joblib   # XGBoost Model for users > 25 years
-│   ├── scaler_young.joblib # StandardScaler for younger group
-│   └── scaler_rest.joblib  # StandardScaler for older group
-|
-├── README.md               # Project documentation
-├── LICENSE                 # Apache License File
-└──requirements.txt         # Python dependencies
+│
+├── artifacts/                      # Serialized models and scalers
+│   ├── model_rest.joblib           # XGBoost Model for users > 25 years (adult users)
+│   ├── model_young.joblib          # Linear Regression Model for users <= 25 years (younger users)
+│   ├── scaler_rest.joblib          # StandardScaler for older group
+│   └── scaler_young.joblib         # StandardScaler for younger group
+│
+├── LICENSE                         # Apache License file
+├── README.md                       # Project documentation
+├── main.py                         # Streamlit app logic
+├── prediction_helper.py            # Preprocessing & prediction logic
+└── requirements.txt                # Python dependencies
 ```
 
 ---
