@@ -76,15 +76,7 @@ health-insurance-premium-predictor/
 - 🎉 Fun and user-friendly interface powered by **Streamlit**.
 
 
-## App Overview
-Here’s a quick demo of the Health Insurance Premium Predictor in action:
-
-<p align="center">
-  <img src="assets/demo.gif" alt="Demo" width="1280"/>
-</p>
-
-
-### 📖 Usage
+## App Overview & Usage
 
 The app is divided into **4 expandable sections** for user inputs:
 
