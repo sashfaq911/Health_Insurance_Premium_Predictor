@@ -1,8 +1,6 @@
-<div align="center">
-
-<img src="premium_prediction_app_screenshot.png" alt="App Preview" width="800"/>
-
 <h1 align="center"> Health Insurance Premium Predictor 💸 </h1>
+
+<div align="center">
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://premium-predictor-app.streamlit.app/)
 
@@ -72,7 +70,11 @@ health-insurance-premium-predictor/
 - 🎉 Fun and user-friendly interface powered by **Streamlit**.
 
 ## App Overview
+Here’s a quick demo of the Health Insurance Premium Predictor in action:
 
+<p align="center">
+  <img src="assets/demo.gif" alt="App Demo" width="1280"/>
+</p>
 
 ### 📖 Usage
 
