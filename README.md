@@ -1,8 +1,8 @@
-<h1 align="center"> Health Insurance Premium Predictor 💸 </h1>
-
 <div align="center">
 
 <img src="premium_prediction_app_screenshot.png" alt="App Preview" width="800"/>
+
+<h1 align="center"> Health Insurance Premium Predictor 💸 </h1>
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://premium-predictor-app.streamlit.app/)
 
