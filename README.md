@@ -45,7 +45,7 @@ Built with **machine learning models** trained on synthetic insurance data.
 ## 📦 Project Structure
 
 ```bash
-health-insurance-premium-predictor/
+Health_Insurance_Premium_Predictor/
 │
 ├── artifacts/                      # Serialized models and scalers
 │   ├── model_rest.joblib           # XGBoost Model for users > 25 years (adult users)
