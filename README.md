@@ -11,8 +11,8 @@
 <p align="center">
   [Installation](#installation) •
   [Features](#features) •
-  [App Overview & Usage](#app-overview-&-usage) •
-  [Live Demo](#live-demo) •
+  [App Overview & Usage](#appoverview&usage) •
+  [Live Demo](#livedemo) •
   [Acknowledgements](#acknowledgements) •
   [License](#license) 
 
@@ -84,7 +84,7 @@ Health_Insurance_Premium_Predictor/
 - 🎉 Fun, clean, and user-friendly interface powered by **Streamlit**.
 
 
-## 🖥️ App Overview & Usage <a name="app-overview-&-usage"></a>
+## 🖥️ App Overview & Usage <a name="appoverview&usage"></a>
 
 The app is divided into **4 expandable sections** for user inputs:
 
@@ -165,7 +165,7 @@ This segmentation ensures that younger applicants and older applicants are model
 
 
 
-## 🌐 Live Demo <a name="live-data"></a>
+## 🌐 Live Demo <a name="livedemo"></a>
 
 👉 Try the app here: **[Health Insurance Premium Predictor](https://premium-predictor-app.streamlit.app/)**
 
