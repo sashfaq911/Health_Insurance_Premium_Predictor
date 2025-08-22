@@ -61,7 +61,7 @@ health-insurance-premium-predictor/
 ```
 
 
-## 🚀 Features
+## ✨ Features
 
 - 🧑‍⚕️ Predicts **personalized premium costs** in seconds
 - 📊 Considers multiple factors:
@@ -75,7 +75,7 @@ health-insurance-premium-predictor/
 - 🎉 Fun, clean, and user-friendly interface powered by **Streamlit**.
 
 
-## App Overview & Usage
+## 🖥️ App Overview & Usage
 
 The app is divided into **4 expandable sections** for user inputs:
 
@@ -161,11 +161,9 @@ This segmentation ensures that younger applicants and older applicants are model
 👉 Try the app here: **[Health Insurance Premium Predictor](https://premium-predictor-app.streamlit.app/)**
 
 
-
-## Acknowledgements 🙏 <a name="acknowledgements"></a>
+## 🙏 Acknowledgements
 
 A special thanks to [Dhaval Patel](https://www.linkedin.com/in/dhavalsays/) and [Hemanand Vadivel](https://www.linkedin.com/in/hemvad/) for their guidance through the [CodeBasics Gen AI & Data Science BootCamp](https://codebasics.io/bootcamps/dashboard/ai-data-science-bootcamp-with-virtual-internship). This project has been an invaluable learning experience and a key milestone in my data science journey!
-
 
 
 ## 📄 License
@@ -173,8 +171,7 @@ A special thanks to [Dhaval Patel](https://www.linkedin.com/in/dhavalsays/) and 
 This project is licensed under the **Apache License 2.0**. See the [LICENSE](./LICENSE) file for details.
 
 
-
-## ❤️  Support  <a name="support"></a>
+## ❤️  Support
 
 Contributions, issues, and suggestions are welcome!
 
