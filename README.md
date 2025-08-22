@@ -9,13 +9,12 @@
 </div>
 
 <p align="center">
-  [Installation](#installation) •
-  [Features](#features) •
-  [App Overview & Usage](#appoverview&usage) •
-  [Live Demo](#livedemo) •
-  [Acknowledgements](#acknowledgements) •
-  [License](#license) 
-
+  <a href="#installation">Installation</a> •
+  <a href="#features">Features</a> •
+  <a href="#app-overview-&-usage">App Overview & Usage</a> •
+  <a href="#live-demo">Live Demo</a> •
+  <a href="#acknowledgements">Acknowledgements</a> •
+  <a href="#license">License</a>
 </p>
 
 An interactive **Streamlit web app** that predicts health insurance premiums based on your age, lifestyle, medical history, and coverage plan.  
@@ -84,7 +83,7 @@ Health_Insurance_Premium_Predictor/
 - 🎉 Fun, clean, and user-friendly interface powered by **Streamlit**.
 
 
-## 🖥️ App Overview & Usage <a name="appoverview&usage"></a>
+## 🖥️ App Overview & Usage <a name="app-overview-&-usage"></a>
 
 The app is divided into **4 expandable sections** for user inputs:
 
@@ -165,7 +164,7 @@ This segmentation ensures that younger applicants and older applicants are model
 
 
 
-## 🌐 Live Demo <a name="livedemo"></a>
+## 🌐 Live Demo <a name="live-demo"></a>
 
 👉 Try the app here: **[Health Insurance Premium Predictor](https://premium-predictor-app.streamlit.app/)**
 
