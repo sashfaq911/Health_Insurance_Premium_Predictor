@@ -36,11 +36,10 @@ Built with **machine learning models** trained on synthetic insurance data.
 
 ## 🛠️ Tech Stack
 
-- [Streamlit](https://streamlit.io/) for the web app UI  
-- [scikit-learn](https://scikit-learn.org/) for ML modeling  
-- [Pandas](https://pandas.pydata.org/) for data preprocessing  
-- [Joblib](https://joblib.readthedocs.io/) for model serialization  
-
+- **Streamlit** for the web app UI  
+- **scikit-learn** for ML modeling  
+- **Pandas** for data preprocessing  
+- **Joblib** for model serialization  
 
 
 ## 📦 Project Structure
@@ -64,7 +63,7 @@ health-insurance-premium-predictor/
 
 ## 🚀 Features
 
-- 🧑‍⚕️ Predicts **personalized premium costs** in seconds.  
+- 🧑‍⚕️ Predicts **personalized premium costs** in seconds
 - 📊 Considers multiple factors:
   - Age, gender, marital status, number of dependants  
   - Income level and employment type  
@@ -72,8 +71,8 @@ health-insurance-premium-predictor/
   - Genetic risk, BMI category, smoking status  
   - Medical history (diabetes, hypertension, thyroid, heart disease, etc.)  
   - Insurance plan type (Bronze, Silver, Gold)  
-- ⚡ Switch between different scenarios instantly to compare outcomes.  
-- 🎉 Fun and user-friendly interface powered by **Streamlit**.
+- ⚡Switch between different scenarios instantly to compare outcomes.  
+- 🎉 Fun, clean, and user-friendly interface powered by **Streamlit**.
 
 
 ## App Overview & Usage
@@ -89,7 +88,7 @@ The app is divided into **4 expandable sections** for user inputs:
 2. **📍 Region & Work**  
    - Region  
    - Employment Status  
-   - Income (in Lakhs)  
+   - Yearly Income (in Lakhs)  
 
 3. **💪 Health & Habits**  
    - Genetic Risk (0–5 scale)  
@@ -100,22 +99,22 @@ The app is divided into **4 expandable sections** for user inputs:
 4. **🧬 Premium Category**  
    - Insurance Plan (Bronze, Silver, Gold)  
 
-Once inputs are provided, the app processes them and selects the correct **model + scaler** based on your age:  
+The app preprocesses user's input data by selecting the correct scaler and the features are then passed to the appropriate model based on user's age:  
 
-- **Age ≤ 25** → Uses `scaler_young.joblib` and `model_young.joblib` (**Linear Regression**)  
-- **Age > 25** → Uses `scaler_rest.joblib` and `model_rest.joblib` (**XGBoost Regressor**)  
+- **Age ≤ 25** → Uses [scaler_young.joblib](./artifacts/scaler_young.joblib) and [model_young.joblib](./artifacts/model_young.joblib) (**Linear Regression**)  
+- **Age > 25** → Uses [scaler_rest.joblib](./artifacts/scaler_rest.joblib) and [model_rest.joblib](./artifacts/model_rest.joblib) (**XGBoost Regressor**)  
 
-This segmentation ensures that younger applicants and older applicants are modeled differently, improving prediction accuracy.
+This segmentation ensures that younger applicants and older applicants are modeled appropriately, improving prediction accuracy.
 
 ---
 
 
 ### 📊 Example Prediction
-<div align="center">
+<p align="center">
    
 <img src="screenshot.png" alt="App Preview" width="1185"/>
 
-</div>
+</p>
 
 
 #### ✅ Example 1: Healthy Baseline Profile
@@ -170,7 +169,7 @@ This segmentation ensures that younger applicants and older applicants are model
 
 ## Acknowledgements 🙏 <a name="acknowledgements"></a>
 
-A special thanks to [Dhaval Patel](https://www.linkedin.com/in/dhavalsays/) and [Hemanand Vadivel](https://www.linkedin.com/in/hemvad/) for their guidance through the [CodeBasics Data Analysis BootCamp 3.0](https://codebasics.io/bootcamps/data-analytics-bootcamp-with-practical-job-assistance). This project has been an invaluable learning experience and a key milestone in my data science journey!
+A special thanks to [Dhaval Patel](https://www.linkedin.com/in/dhavalsays/) and [Hemanand Vadivel](https://www.linkedin.com/in/hemvad/) for their guidance through the [CodeBasics Gen AI & Data Science BootCamp](https://codebasics.io/bootcamps/dashboard/ai-data-science-bootcamp-with-virtual-internship). This project has been an invaluable learning experience and a key milestone in my data science journey!
 
 
 
