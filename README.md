@@ -23,7 +23,7 @@ Built with **machine learning models** trained on synthetic insurance data.
 
 
 
-## 🚀 Installation <a name="data"></a>
+## 🚀 Installation <a name="installation"></a>
 
 ### Prerequisites:  
 - Python 3.10+
