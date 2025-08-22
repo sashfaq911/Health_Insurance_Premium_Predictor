@@ -9,12 +9,13 @@
 </div>
 
 <p align="center">
-  <a href="#installation">Installation</a> •
-  <a href="#features">Features</a> •
-  <a href="#app-overview-&-usage">App Overview & Usage</a> •
-  <a href="#live-demo">Live Demo</a> •
-  <a href="#acknowledgements">Acknowledgements</a> •
-  <a href="#license">License</a>
+  [Installation](#installation) •
+  [Features](#features) •
+  [App Overview & Usage](#app-overview-&-usage) •
+  [Live Demo](#live-demo) •
+  [Acknowledgements](#acknowledgements) •
+  [License](#license) 
+
 </p>
 
 An interactive **Streamlit web app** that predicts health insurance premiums based on your age, lifestyle, medical history, and coverage plan.  
@@ -22,7 +23,7 @@ Built with **machine learning models** trained on synthetic insurance data.
 
 
 
-## 🚀 Installation
+## 🚀 Installation <a name="data"></a>
 
 ### Prerequisites:  
 - Python 3.10+
@@ -69,7 +70,7 @@ Health_Insurance_Premium_Predictor/
 ```
 
 
-## ✨ Features
+## ✨ Features <a name="features"></a>
 
 - 🧑‍⚕️ Predicts **personalized premium costs** in seconds
 - 📊 Considers multiple factors:
@@ -83,7 +84,7 @@ Health_Insurance_Premium_Predictor/
 - 🎉 Fun, clean, and user-friendly interface powered by **Streamlit**.
 
 
-## 🖥️ App Overview & Usage
+## 🖥️ App Overview & Usage <a name="app-overview-&-usage"></a>
 
 The app is divided into **4 expandable sections** for user inputs:
 
@@ -164,17 +165,17 @@ This segmentation ensures that younger applicants and older applicants are model
 
 
 
-## 🌐 Live Demo
+## 🌐 Live Demo <a name="live-data"></a>
 
 👉 Try the app here: **[Health Insurance Premium Predictor](https://premium-predictor-app.streamlit.app/)**
 
 
-## 🙏 Acknowledgements
+## 🙏 Acknowledgements <a name="acknowledgements"></a>
 
 A special thanks to [Dhaval Patel](https://www.linkedin.com/in/dhavalsays/) and [Hemanand Vadivel](https://www.linkedin.com/in/hemvad/) for their guidance through the [CodeBasics Gen AI & Data Science BootCamp](https://codebasics.io/bootcamps/dashboard/ai-data-science-bootcamp-with-virtual-internship). This project has been an invaluable learning experience and a key milestone in my data science journey!
 
 
-## 📄 License
+## 📄 License <a name="license"></a>
 
 This project is licensed under the **Apache License 2.0**. See the [LICENSE](./LICENSE) file for details.
 
