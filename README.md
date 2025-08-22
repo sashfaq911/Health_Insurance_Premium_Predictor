@@ -112,7 +112,7 @@ This segmentation ensures that younger applicants and older applicants are model
 ### 📊 Example Prediction
 <p align="center">
    
-<img src="screenshot.png" alt="App Preview" width="1185"/>
+  <img src="screenshot.png" alt="App Preview" width="1185"/>
 
 </p>
 
