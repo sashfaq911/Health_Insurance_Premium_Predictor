@@ -18,9 +18,7 @@
   <a href="#license">License</a>
 </p>
 
-A machine learning–powered web app that estimates personalized insurance costs based on factors such as age, income, BMI, smoking habits, and medical history.  
-
-Designed with transparency in mind, the app not only predicts premiums but also helps users understand which lifestyle and health choices contribute most to their costs. Built using **Streamlit** with **machine learning models** trained on synthetic insurance data, it demonstrates the end-to-end process of solving a real-world problem — from data preprocessing and model development to deployment with an interactive user interface.  
+A machine learning–powered web app that estimates personalized insurance costs based on factors such as age, income, BMI, smoking habits, and medical history. Built using **Streamlit** with **machine learning models** trained on synthetic insurance data, it demonstrates the end-to-end process of solving a real-world problem — from data preprocessing and model development to deployment with an interactive user interface.  
 
 ## ❗ Problem Statement  <a name="problem-statement"></a>
 Health insurance premiums vary widely based on factors such as age, lifestyle, and medical history, making them difficult for individuals to estimate and understand.  
@@ -32,9 +30,22 @@ The challenge is to build a predictive solution that not only estimates premiums
 ## 💡 Solution Statement  
 This project provides a machine learning–powered app that predicts health insurance premiums based on user-specific factors such as age, BMI, smoking status, and medical history.
 
-By combining tailored preprocessing with Linear Regression (for younger users) and XGBoost (for older users), the app delivers accurate, personalized estimates while offering a transparent view of how lifestyle and health choices impact premium costs.  
+By combining tailored preprocessing with **Linear Regression** (for younger users) and **XGBoost** (for older users), the app delivers accurate, personalized estimates while offering a transparent view of how lifestyle and health choices impact premium costs.  
 
 ## ✨ Features <a name="features"></a>
+
+- **Personalized Premium Prediction** → Estimates health insurance costs based on user details like:
+  - Age, gender, marital status, number of dependants  
+  - Income level and employment type  
+  - Region of residence  
+  - Genetic risk, BMI category, smoking status  
+  - Medical history (diabetes, hypertension, thyroid, heart disease, etc.)  
+  - Insurance plan type (Bronze, Silver, Gold)  
+- **Dual-Model Approach** → Uses Linear Regression for younger users (≤ 25) and XGBoost for older users (> 25) to improve accuracy.
+- **Dynamic Segmentation Logic** → Automatically applies the right model and scaler depending on the user’s age group.    
+- **Health Risk Scoring** → Converts medical history into a normalized risk score to better capture the impact of diseases.  
+- **Interactive Streamlit UI** → User-friendly interface with collapsible sections for clean input collection.  
+- **Real-Time Predictions** → Instant feedback with engaging visuals (success messages, balloons, sidebar tips).  
 
 - 🧑‍⚕️ Predicts **personalized premium costs** in seconds
 - 📊 Considers multiple factors:
