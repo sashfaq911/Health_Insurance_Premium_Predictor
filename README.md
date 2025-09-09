@@ -17,61 +17,21 @@
   <a href="#license">License</a>
 </p>
 
+The **Health Insurance Premium Predictor** is a machine learning–powered web app that estimates personalized insurance costs based on factors such as age, income, BMI, smoking habits, and medical history.  
+
+Designed with transparency in mind, the app not only predicts premiums but also helps users understand which lifestyle and health choices contribute most to their costs. Built using **Streamlit**, **Scikit-learn**, and **XGBoost**, it demonstrates the end-to-end process of solving a real-world problem — from data preprocessing and model development to deployment with an interactive user interface.  
+
 An interactive **Streamlit web app** that predicts health insurance premiums based on your age, lifestyle, medical history, and coverage plan.  
 Built with **machine learning models** trained on synthetic insurance data.
 
+## ❗ Problem Statement  
+Health insurance premiums vary widely based on factors such as age, lifestyle, and medical history, making them difficult for individuals to estimate and understand.  
+This lack of transparency often leads to confusion, poor decision-making, and mistrust in the system.  
+The challenge is to build a predictive solution that not only estimates premiums accurately but also helps users understand which factors drive their costs.  
 
-
-## 🚀 Installation <a name="installation"></a>
-
-### Prerequisites:  
-- Python 3.10+
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/sashfaq911/health-insurance-premium-predictor.git
-   cd health-insurance-premium-predictor
-   ```
-2. **Install dependencies**:   
-   ```commandline
-    pip install -r requirements.txt
-   ```
-5. **Run the Streamlit app**:   
-   ```commandline
-    streamlit run main.py
-   ```
-
-
-## 🛠️ Tech Stack
-
-- **Streamlit** for the web app UI  
-- **scikit-learn** for ML modeling  
-- **Pandas** for data preprocessing  
-- **Joblib** for model serialization  
-
-
-## 📦 Project Structure
-
-```bash
-Health_Insurance_Premium_Predictor/
-│
-├── assets/                         
-│   ├── demo.gif                    # Demo of the Streamlit web app
-│   ├── screenshot.png              # Screenshot of Streamlit web app
-│
-├── artifacts/                      # Serialized models and scalers
-│   ├── model_rest.joblib           # XGBoost Model for users > 25 years (adult users)
-│   ├── model_young.joblib          # Linear Regression Model for users <= 25 years (younger users)
-│   ├── scaler_rest.joblib          # StandardScaler for older group
-│   └── scaler_young.joblib         # StandardScaler for younger group
-│
-├── LICENSE                         # Apache License file
-├── README.md                       # Project documentation
-├── main.py                         # Streamlit app logic
-├── prediction_helper.py            # Preprocessing & prediction logic
-└── requirements.txt                # Python dependencies
-```
-
+## 💡 Solution Statement  
+This project provides a machine learning–powered app that predicts health insurance premiums based on user-specific factors such as age, BMI, smoking status, and medical history.  
+By combining tailored preprocessing with Linear Regression (for younger users) and XGBoost (for older users), the app delivers accurate, personalized estimates while offering a transparent view of how lifestyle and health choices impact premium costs.  
 
 ## ✨ Features <a name="features"></a>
 
@@ -167,11 +127,60 @@ This segmentation ensures that younger applicants and older applicants are model
 > 💡 Notice how risk factors (smoking + medical history + Gold plan) significantly increase the premium compared to the baseline healthy profile.
 
 
-
 ## 🌐 Live Demo <a name="live-demo"></a>
 
 👉 Try the app here: **[Health Insurance Premium Predictor](https://premium-predictor-app.streamlit.app/)**
 
+
+## 🛠️ Tech Stack
+
+- **Streamlit** for the web app UI  
+- **scikit-learn** for ML modeling  
+- **Pandas** for data preprocessing  
+- **Joblib** for model serialization  
+
+
+## 📦 Project Structure
+
+```bash
+Health_Insurance_Premium_Predictor/
+│
+├── assets/                         
+│   ├── demo.gif                    # Demo of the Streamlit web app
+│   ├── screenshot.png              # Screenshot of Streamlit web app
+│
+├── artifacts/                      # Serialized models and scalers
+│   ├── model_rest.joblib           # XGBoost Model for users > 25 years (adult users)
+│   ├── model_young.joblib          # Linear Regression Model for users <= 25 years (younger users)
+│   ├── scaler_rest.joblib          # StandardScaler for older group
+│   └── scaler_young.joblib         # StandardScaler for younger group
+│
+├── LICENSE                         # Apache License file
+├── README.md                       # Project documentation
+├── main.py                         # Streamlit app logic
+├── prediction_helper.py            # Preprocessing & prediction logic
+└── requirements.txt                # Python dependencies
+```
+
+
+## 🚀 Installation <a name="installation"></a>
+
+### Prerequisites:  
+- Python 3.10+
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/sashfaq911/health-insurance-premium-predictor.git
+   cd health-insurance-premium-predictor
+   ```
+2. **Install dependencies**:   
+   ```commandline
+    pip install -r requirements.txt
+   ```
+5. **Run the Streamlit app**:   
+   ```commandline
+    streamlit run main.py
+   ```
 
 ## 🙏 Acknowledgements <a name="acknowledgements"></a>
 
