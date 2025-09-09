@@ -55,6 +55,10 @@ Built with **machine learning models** trained on synthetic insurance data.
 ```bash
 Health_Insurance_Premium_Predictor/
 │
+├── assets/                         
+│   ├── demo.gif                    # Demo of the Streamlit web app
+│   ├── screenshot.png              # Screenshot of Streamlit web app
+│
 ├── artifacts/                      # Serialized models and scalers
 │   ├── model_rest.joblib           # XGBoost Model for users > 25 years (adult users)
 │   ├── model_young.joblib          # Linear Regression Model for users <= 25 years (younger users)
