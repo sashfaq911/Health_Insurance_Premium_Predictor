@@ -34,29 +34,18 @@ By combining tailored preprocessing with **Linear Regression** (for younger user
 
 ## ✨ Features <a name="features"></a>
 
-- **Personalized Premium Prediction** → Estimates health insurance costs based on user details like:
+- 🧮 **Personalized Premium Prediction** → Estimates health insurance costs based on user details like:
   - Age, gender, marital status, number of dependants  
   - Income level and employment type  
   - Region of residence  
   - Genetic risk, BMI category, smoking status  
   - Medical history (diabetes, hypertension, thyroid, heart disease, etc.)  
   - Insurance plan type (Bronze, Silver, Gold)  
-- **Dual-Model Approach** → Uses Linear Regression for younger users (≤ 25) and XGBoost for older users (> 25) to improve accuracy.
-- **Dynamic Segmentation Logic** → Automatically applies the right model and scaler depending on the user’s age group.    
-- **Health Risk Scoring** → Converts medical history into a normalized risk score to better capture the impact of diseases.  
-- **Interactive Streamlit UI** → User-friendly interface with collapsible sections for clean input collection.  
-- **Real-Time Predictions** → Instant feedback with engaging visuals (success messages, balloons, sidebar tips).  
-
-- 🧑‍⚕️ Predicts **personalized premium costs** in seconds
-- 📊 Considers multiple factors:
-  - Age, gender, marital status, number of dependants  
-  - Income level and employment type  
-  - Region of residence  
-  - Genetic risk, BMI category, smoking status  
-  - Medical history (diabetes, hypertension, thyroid, heart disease, etc.)  
-  - Insurance plan type (Bronze, Silver, Gold)  
-- ⚡Switch between different scenarios instantly to compare outcomes.  
-- 🎉 Fun, clean, and user-friendly interface powered by **Streamlit**.
+- 🔀 **Dual-Model Approach** → Uses Linear Regression for younger users (≤ 25) and XGBoost for older users (> 25) to improve accuracy.
+- 🧩 **Dynamic Segmentation Logic** → Automatically applies the right model and scaler depending on the user’s age group.    
+- 🩺 **Health Risk Scoring** → Converts medical history into a normalized risk score to better capture the impact of diseases.  
+- 💻 **Interactive Streamlit UI** → User-friendly interface with collapsible sections for clean input collection.  
+- ⚡ **Real-Time Predictions** → Instant feedback with engaging visuals (success messages, balloons, sidebar tips).  
 
 
 ## 🖥️ App Overview & Usage <a name="app-overview-&-usage"></a>
