@@ -20,7 +20,7 @@
 
 A machine learning–powered web app that estimates personalized insurance costs based on factors such as age, income, BMI, smoking habits, and medical history. Built using **Streamlit** with **machine learning models** trained on synthetic insurance data, it demonstrates the end-to-end process of solving a real-world problem — from data preprocessing and model development to deployment with an interactive user interface.  
 
-## ❗ Problem Statement  <a name="problem-statement"></a>
+## 📌 Problem Statement  <a name="problem-statement"></a>
 Health insurance premiums vary widely based on factors such as age, lifestyle, and medical history, making them difficult for individuals to estimate and understand.  
 
 This lack of transparency often leads to confusion, poor decision-making, and mistrust in the system.  
